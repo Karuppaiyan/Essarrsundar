@@ -4,7 +4,7 @@ import React from "react";
 import Image from 'next/image';
 import logo from '../public/images/logo.png';
 
-const services = ["Web Development", "App Development", "Cloud Solutions", "AI Integration"];
+const services = ["Services", "Products", "Solutions", "Careers"];
 const company = ["About Us", "Our Team", "Careers", "Press Kit"];
 const resources = ["Documentation", "API Reference", "Blog", "Support"];
 const socials = [

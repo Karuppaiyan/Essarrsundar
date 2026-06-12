@@ -7,14 +7,14 @@ const skillsData = [
   { name: "LED Tree", icon: "🟢", level: 90, category: "backend" },
   { name: "Cube LED", icon: "📘", level: 88, category: "frontend" },
   { name: "Anamorphic LED", icon: "☁️", level: 92, category: "cloud" },
-  { name: "Docker", icon: "🐳", level: 85, category: "cloud" },
-  { name: "Python", icon: "🐍", level: 93, category: "backend" },
-  { name: "Kubernetes", icon: "☸️", level: 82, category: "cloud" },
-  { name: "GraphQL", icon: "◈", level: 87, category: "backend" },
-  { name: "TensorFlow", icon: "🤖", level: 78, category: "emerging" },
-  { name: "Blockchain", icon: "🔗", level: 75, category: "emerging" },
-  { name: "Vue.js", icon: "💚", level: 85, category: "frontend" },
-  { name: "MongoDB", icon: "🍃", level: 90, category: "backend" },
+  { name: "Interactive screen", icon: "🐳", level: 85, category: "cloud" },
+  { name: "Poster led", icon: "🐍", level: 93, category: "backend" },
+  { name: "LED TV Screens", icon: "☸️", level: 82, category: "cloud" },
+  { name: "LFD Wall", icon: "◈", level: 87, category: "backend" },
+  { name: "Custom LED Display", icon: "🤖", level: 78, category: "emerging" },
+  { name: "Dynamic LED Wall", icon: "🔗", level: 75, category: "emerging" },
+  { name: "Fascia LED", icon: "💚", level: 85, category: "frontend" },
+  { name: "LED Sphere", icon: "🍃", level: 90, category: "backend" },
 ];
 
 export default function SkillsSection() {
