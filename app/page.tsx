@@ -7,18 +7,19 @@ import {
   SkillsSection,
   ContactSection,
   Footer,
-} from '../components';
+} from '@/components';
 
 
 import type { NextPage } from 'next';
+import AquaticCarousel from "@/components/AquaticCarousel";
 
 const Home: NextPage = () => {
   return (
     <>
-
-    <h1 className="text-4xl font-bold text-center mt-8">Welcome to My Portfolio</h1>
-    <Header/>
-    <HeroCarousel/>
+    
+    <Header/> 
+    {/* <HeroCarousel/>    */}
+    <AquaticCarousel/>
     <PhilosophySection/>
     <StatsSection/>
     <SkillsSection/>

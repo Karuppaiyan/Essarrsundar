@@ -212,7 +212,6 @@ export default function HeroCarousel() {
 
   return (
     <section className="hero" id="home">
-      
       <div className="carousel-container">
         <div
           className="carousel"

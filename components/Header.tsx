@@ -2,7 +2,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
 import Image from 'next/image';
-import logo from '../public/images/logo.png';
+import logo from '@/public/images/logo.png';
 
 export default function Header() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -22,8 +22,7 @@ export default function Header() {
       <nav className="nav-container">
         {/* Logo */}
          <a href="#home" className="logo">
-              <Image src={logo} alt="ESS ARR ENTERPRISES" width={150} height={90} /> </a>
-
+              <Image src="/images/logo.png" alt="ESS ARR ENTERPRISES" width={150} height={90} /></a>
         {/* Navigation Menu */}
         <ul className={`nav-menu ${menuOpen ? "active" : ""}`} id="navMenu">
           <li><a href="#home" className="nav-link active">Home</a></li>
