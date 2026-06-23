@@ -1,5 +1,9 @@
 import type { Metadata } from "next";
+import { Amplify } from "aws-amplify";
+import outputs from "../amplify_outputs.json";
 import "./globals.css";
+Amplify.configure(outputs, { ssr: true });
+
 
 export const metadata: Metadata = {
   title: "ESS ARR ENTERPRISES",
